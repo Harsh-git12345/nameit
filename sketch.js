@@ -25,7 +25,7 @@ function preload() {
 function setup() {
   noCanvas();
   startTime = millis();
-
+  console.log("hi hello");
   var params = getURLParams();
   console.log(params);
   if (params.minute) {
